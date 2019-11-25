@@ -14,7 +14,7 @@ type Animate = {
 
 
 export const RenderCanvas: SFC = () => {
-    const canvas: any = useRef<HTMLInputElement>();
+    const canvas:any = useRef<HTMLInputElement>();
     let ani:any
 
     useEffect(() => {
